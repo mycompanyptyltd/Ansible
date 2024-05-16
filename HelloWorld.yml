@@ -2,7 +2,7 @@
 - name: Create HelloWorld.txt
   hosts: 10.100.2.60
   tasks:
-    - name: Create an empty file
+    - name: Create file
       ansible.windows.win_file:
-        path: C:\\Temp\\HelloWorld.txt
+        path: C:\\temp\\HelloWorld.txt
         state: touch
