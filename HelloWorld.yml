@@ -1,6 +1,6 @@
 ---
 - name: Create HelloWorld.txt
-  hosts: your_windows_server
+  hosts: 10.100.2.60
   tasks:
     - name: Create an empty file
       ansible.windows.win_file:
