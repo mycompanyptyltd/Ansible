@@ -1,6 +1,6 @@
 ---
 - name: Create HelloWorld.txt
-  hosts: W2K22-MGMT01.mycompany.net.au
+  hosts: '{{ hostname }}'
   tasks:
     - name: Create file
       ansible.windows.win_file:
