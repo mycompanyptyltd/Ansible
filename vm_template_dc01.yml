@@ -12,7 +12,7 @@
       name: "{{ vm_name }}"
       template: W2K22-VTEMP01
       datacenter: MyCompany-DC01
-      folder: 
+      folder: /
       state: poweredon
       cluster: esxi7-cluster01.mycompany.net.au
       wait_for_ip_address: yes
