@@ -10,7 +10,7 @@
       password: Bertram2569#$#
       validate_certs: False
       name: "{{ vm_name }}"
-      template: W2K22-VTEMP01
+      template: Win2022_Std_GUI_Template
       datacenter: MyCompany-DC01
       folder: /
       state: poweredon
